@@ -1,0 +1,11 @@
+{
+  "name": "yarn2",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "yarn workspaces foreach run test"
+  }
+}
