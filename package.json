@@ -6,6 +6,5 @@
     ]
   },
   "scripts": {
-    "test": "yarn workspaces foreach run test"
   }
 }
